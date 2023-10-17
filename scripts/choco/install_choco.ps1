@@ -3,6 +3,7 @@ $process = Start-Process powershell -Verb runAs -ArgumentList '-Command "& {Set-
 $process.WaitForExit()
 
 # set environment variable
-$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User") 
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+$env:ChocolateyInstall = [System.Environment]::GetEnvironmentVariable("ChocolateyInstall","Machine")
 Import-Module $env:ChocolateyInstall\helpers\chocolateyProfile.psm1
 refreshenv
