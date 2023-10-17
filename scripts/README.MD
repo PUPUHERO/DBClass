@@ -14,3 +14,4 @@
 
 - [ ] Windows PowerShell 圖標
 - [ ] mysql 自動設定及佈署
+- [ ] 右鍵以Windows PowerShell Administrator執行
