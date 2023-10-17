@@ -8,3 +8,6 @@ if (-not (Get-Command pwsh -ErrorAction SilentlyContinue)) {
     # Install PowerShell Core
     Start-Process -FilePath msiexec.exe -ArgumentList "/i `"$output`" " -Wait
 }
+# reload the environment variables
+refreshenv
+
