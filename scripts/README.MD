@@ -12,7 +12,7 @@
 
 ## Working on
 
-- [ ] Windows PowerShell 圖標
+- [x] Windows PowerShell 圖標
 - [ ] mysql 自動設定及佈署
-- [ ] 右鍵以Windows PowerShell Administrator執行
-- [v] 檢驗是否是Administrator權限
+- [x] 右鍵以Windows PowerShell Administrator執行
+- [x] 檢驗是否是Administrator權限
