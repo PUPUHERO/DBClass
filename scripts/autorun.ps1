@@ -9,13 +9,16 @@ if (!$isAdmin) {
 }
 
 # install choco
+Write-Host "installing choco"
 .\choco\install_choco.ps1
 
 # install powershell and set powershell7 in context menu
+Write-Host "installing powershell"
 .\pwsh\install_pwsh_choco.ps1
 Start-Process regedit.exe -ArgumentList "/s pwsh\pwsh_open_here.reg" -Wait
 
 # install mysql
+Write-Host "installing mysql"
 .\mysql\install_mysql_choco.ps1
 .\mysql\set_mysql.ps1
 
