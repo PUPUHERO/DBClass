@@ -15,4 +15,4 @@
 - [ ] Windows PowerShell 圖標
 - [ ] mysql 自動設定及佈署
 - [ ] 右鍵以Windows PowerShell Administrator執行
-- [ ] 檢驗是否是Administrator權限
+- [v] 檢驗是否是Administrator權限
